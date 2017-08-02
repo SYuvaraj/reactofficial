@@ -5,6 +5,10 @@ import './App.css';
 class App extends Component {
   render() {
     const HelloWorld = <h1>Hello World </h1>
+    function Welcome(props){
+      return <h1>Welcome, {props.name}</h1>;
+    }
+
     return (
       <div className="App">
         <div className="App-header">
@@ -14,6 +18,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <Welcome name="Yuvaraj" />
       </div>
     );
   }
