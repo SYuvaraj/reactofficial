@@ -20,6 +20,8 @@ class App extends Component {
         </p>
 
         <Welcome name="Yuvaraj" />
+        <Welcome name="Vinay" />
+        <Welcome name="JD" />
       </div>
     );
   }
