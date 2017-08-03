@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Comment from './Comment.js';
+import EventHandling from './components/eventHandling.js';
 
 class App extends Component {
   render() {
@@ -37,6 +38,8 @@ class App extends Component {
         <Comment  date={comment.date}
                   text={comment.text}
                   author={comment.author} />
+
+        <EventHandling />
       </div>
     );
   }

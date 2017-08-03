@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Clock from './Clock';
+import EventHandling from './components/eventHandling.js';
+
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Clock />, document.getElementById('root'));
+ReactDOM.render(<EventHandling />, document.getElementById('root'));
 registerServiceWorker();
