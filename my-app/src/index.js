@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import Clock from './Clock';
 import EventHandling from './components/eventHandling.js';
+import Greeting from './components/Greeting.js';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<EventHandling />, document.getElementById('root'));
+ReactDOM.render(<Greeting  isLoggedIn = {false} />, document.getElementById('root'));
 registerServiceWorker();
