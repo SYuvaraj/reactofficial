@@ -12,7 +12,7 @@ class LogoutButton extends React.Component{
 
 	return(
 			<div>
-				<button onClick={this.onClick}>LogOut</button>
+				<button onClick={this.props.onClick}>LogOut</button>
 			</div>
 		);
 
