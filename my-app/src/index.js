@@ -7,8 +7,9 @@ import EventHandling from './components/eventHandling.js';
 import Greeting from './components/Greeting.js';
 import LoginControl from './components/LoginControl.js';
 import MailBox from './components/Mailbox.js';
+import Page from './components/Page.js';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<MailBox  />, document.getElementById('root'));
+ReactDOM.render(<Page  />, document.getElementById('root'));
 registerServiceWorker();
