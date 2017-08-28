@@ -9,8 +9,9 @@ import LoginControl from './components/LoginControl.js';
 import MailBox from './components/Mailbox.js';
 import Page from './components/Page.js';
 import ListKeys from './components/ListKeys.js';
+import NameForm from './components/NameForm.js';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<ListKeys  />, document.getElementById('root'));
+ReactDOM.render(<NameForm  />, document.getElementById('root'));
 registerServiceWorker();
