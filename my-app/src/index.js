@@ -10,8 +10,9 @@ import MailBox from './components/Mailbox.js';
 import Page from './components/Page.js';
 import ListKeys from './components/ListKeys.js';
 import NameForm from './components/NameForm.js';
+import Reservation from './components/Reservation.js';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<NameForm  />, document.getElementById('root'));
+ReactDOM.render(<Reservation  />, document.getElementById('root'));
 registerServiceWorker();
