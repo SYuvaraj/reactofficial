@@ -11,8 +11,9 @@ import Page from './components/Page.js';
 import ListKeys from './components/ListKeys.js';
 import NameForm from './components/NameForm.js';
 import Reservation from './components/Reservation.js';
+import BoilingVerdict from './components/BoilingVerdict.js';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<Reservation  />, document.getElementById('root'));
+ReactDOM.render(<BoilingVerdict  celsius = "90" />, document.getElementById('root'));
 registerServiceWorker();
